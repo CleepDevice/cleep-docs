@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cleep.resources package &mdash; Cleep core 0.1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/cleep.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/cleep.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="cleep.profiles package" href="cleep.profiles.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #607d8b" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Cleep core
+              <img src="../_static/cleep-logo-red.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">cleep</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="cleep.html">cleep package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="cleep.events.html">cleep.events package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.events.html#module-cleep.events.coreappsupdatedevent">cleep.events.coreappsupdatedevent module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.events.html#cleep.events.coreappsupdatedevent.CoreAppsUpdatedEvent"><code class="docutils literal notranslate"><span class="pre">CoreAppsUpdatedEvent</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coreappsupdatedevent.CoreAppsUpdatedEvent.EVENT_NAME"><code class="docutils literal notranslate"><span class="pre">CoreAppsUpdatedEvent.EVENT_NAME</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coreappsupdatedevent.CoreAppsUpdatedEvent.EVENT_PARAMS"><code class="docutils literal notranslate"><span class="pre">CoreAppsUpdatedEvent.EVENT_PARAMS</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coreappsupdatedevent.CoreAppsUpdatedEvent.EVENT_PROPAGATE"><code class="docutils literal notranslate"><span class="pre">CoreAppsUpdatedEvent.EVENT_PROPAGATE</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.events.html#module-cleep.events.coredevicedeletedevent">cleep.events.coredevicedeletedevent module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.events.html#cleep.events.coredevicedeletedevent.CoreDeviceDeletedEvent"><code class="docutils literal notranslate"><span class="pre">CoreDeviceDeletedEvent</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coredevicedeletedevent.CoreDeviceDeletedEvent.EVENT_NAME"><code class="docutils literal notranslate"><span class="pre">CoreDeviceDeletedEvent.EVENT_NAME</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coredevicedeletedevent.CoreDeviceDeletedEvent.EVENT_PARAMS"><code class="docutils literal notranslate"><span class="pre">CoreDeviceDeletedEvent.EVENT_PARAMS</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.events.html#cleep.events.coredevicedeletedevent.CoreDeviceDeletedEvent.EVENT_PROPAGATE"><code class="docutils literal notranslate"><span class="pre">CoreDeviceDeletedEvent.EVENT_PROPAGATE</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.libs.html">cleep.libs package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.commands.html">cleep.libs.commands package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.alsa">cleep.libs.commands.alsa module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.alsa.Alsa"><code class="docutils literal notranslate"><span class="pre">Alsa</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.blkid">cleep.libs.commands.blkid module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.blkid.Blkid"><code class="docutils literal notranslate"><span class="pre">Blkid</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#cleep-libs-commands-ifconfig-module">cleep.libs.commands.ifconfig module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.ifupdown">cleep.libs.commands.ifupdown module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.ifupdown.Ifupdown"><code class="docutils literal notranslate"><span class="pre">Ifupdown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.ip">cleep.libs.commands.ip module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.ip.Ip"><code class="docutils literal notranslate"><span class="pre">Ip</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iw">cleep.libs.commands.iw module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.iw.Iw"><code class="docutils literal notranslate"><span class="pre">Iw</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwconfig">cleep.libs.commands.iwconfig module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.iwconfig.Iwconfig"><code class="docutils literal notranslate"><span class="pre">Iwconfig</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwgetid">cleep.libs.commands.iwgetid module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.iwgetid.Iwgetid"><code class="docutils literal notranslate"><span class="pre">Iwgetid</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwlist">cleep.libs.commands.iwlist module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.iwlist.Iwlist"><code class="docutils literal notranslate"><span class="pre">Iwlist</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.lsblk">cleep.libs.commands.lsblk module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.lsblk.Lsblk"><code class="docutils literal notranslate"><span class="pre">Lsblk</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.lsmod">cleep.libs.commands.lsmod module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.lsmod.Lsmod"><code class="docutils literal notranslate"><span class="pre">Lsmod</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.modprobe">cleep.libs.commands.modprobe module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.modprobe.Modprobe"><code class="docutils literal notranslate"><span class="pre">Modprobe</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.rfkill">cleep.libs.commands.rfkill module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.rfkill.Rfkill"><code class="docutils literal notranslate"><span class="pre">Rfkill</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.udevadm">cleep.libs.commands.udevadm module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.udevadm.Udevadm"><code class="docutils literal notranslate"><span class="pre">Udevadm</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.wpacli">cleep.libs.commands.wpacli module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html#cleep.libs.commands.wpacli.Wpacli"><code class="docutils literal notranslate"><span class="pre">Wpacli</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.configs.html">cleep.libs.configs package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.appssources">cleep.libs.configs.appssources module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.appssources.AppsSources"><code class="docutils literal notranslate"><span class="pre">AppsSources</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.asoundrc">cleep.libs.configs.asoundrc module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.asoundrc.Asoundrc"><code class="docutils literal notranslate"><span class="pre">Asoundrc</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepaudio">cleep.libs.configs.cleepaudio module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.cleepaudio.CleepAudio"><code class="docutils literal notranslate"><span class="pre">CleepAudio</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepconf">cleep.libs.configs.cleepconf module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.cleepconf.CleepConf"><code class="docutils literal notranslate"><span class="pre">CleepConf</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepwificonf">cleep.libs.configs.cleepwificonf module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.cleepwificonf.CleepWifiConf"><code class="docutils literal notranslate"><span class="pre">CleepWifiConf</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cmdline">cleep.libs.configs.cmdline module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.cmdline.Cmdline"><code class="docutils literal notranslate"><span class="pre">Cmdline</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cmdlinetxt">cleep.libs.configs.cmdlinetxt module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.cmdlinetxt.CmdlineTxt"><code class="docutils literal notranslate"><span class="pre">CmdlineTxt</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.config">cleep.libs.configs.config module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.config.Config"><code class="docutils literal notranslate"><span class="pre">Config</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.configtxt">cleep.libs.configs.configtxt module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.configtxt.ConfigTxt"><code class="docutils literal notranslate"><span class="pre">ConfigTxt</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.dhcpcdconf">cleep.libs.configs.dhcpcdconf module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.dhcpcdconf.DhcpcdConf"><code class="docutils literal notranslate"><span class="pre">DhcpcdConf</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcasoundconf">cleep.libs.configs.etcasoundconf module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.etcasoundconf.EtcAsoundConf"><code class="docutils literal notranslate"><span class="pre">EtcAsoundConf</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcmodules">cleep.libs.configs.etcmodules module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.etcmodules.EtcModules"><code class="docutils literal notranslate"><span class="pre">EtcModules</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcnetworkinterfaces">cleep.libs.configs.etcnetworkinterfaces module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.etcnetworkinterfaces.EtcNetworkInterfaces"><code class="docutils literal notranslate"><span class="pre">EtcNetworkInterfaces</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.fstab">cleep.libs.configs.fstab module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.fstab.Fstab"><code class="docutils literal notranslate"><span class="pre">Fstab</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.hostname">cleep.libs.configs.hostname module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.hostname.Hostname"><code class="docutils literal notranslate"><span class="pre">Hostname</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.modulesjson">cleep.libs.configs.modulesjson module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.modulesjson.ModulesJson"><code class="docutils literal notranslate"><span class="pre">ModulesJson</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.wpasupplicantconf">cleep.libs.configs.wpasupplicantconf module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html#cleep.libs.configs.wpasupplicantconf.WpaSupplicantConf"><code class="docutils literal notranslate"><span class="pre">WpaSupplicantConf</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.drivers.html">cleep.libs.drivers package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.drivers.html#module-cleep.libs.drivers.audiodriver">cleep.libs.drivers.audiodriver module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.drivers.html#cleep.libs.drivers.audiodriver.AudioDriver"><code class="docutils literal notranslate"><span class="pre">AudioDriver</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.drivers.html#module-cleep.libs.drivers.driver">cleep.libs.drivers.driver module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.drivers.html#cleep.libs.drivers.driver.Driver"><code class="docutils literal notranslate"><span class="pre">Driver</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.internals.html">cleep.libs.internals package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepbackup">cleep.libs.internals.cleepbackup module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepbackup.CleepBackup"><code class="docutils literal notranslate"><span class="pre">CleepBackup</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-cleepdoc-module">cleep.libs.internals.cleepdoc module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepfilesystem">cleep.libs.internals.cleepfilesystem module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepfilesystem.CleepFilesystem"><code class="docutils literal notranslate"><span class="pre">CleepFilesystem</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepgithub">cleep.libs.internals.cleepgithub module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepgithub.CleepGithub"><code class="docutils literal notranslate"><span class="pre">CleepGithub</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepresource">cleep.libs.internals.cleepresource module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepresource.CleepResource"><code class="docutils literal notranslate"><span class="pre">CleepResource</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.console">cleep.libs.internals.console module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.console.AdvancedConsole"><code class="docutils literal notranslate"><span class="pre">AdvancedConsole</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.console.Console"><code class="docutils literal notranslate"><span class="pre">Console</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.console.EndlessConsole"><code class="docutils literal notranslate"><span class="pre">EndlessConsole</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.console.get_env"><code class="docutils literal notranslate"><span class="pre">get_env()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.console.set_opts"><code class="docutils literal notranslate"><span class="pre">set_opts()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-crashreport-module">cleep.libs.internals.crashreport module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.criticalresources">cleep.libs.internals.criticalresources module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.criticalresources.CriticalResources"><code class="docutils literal notranslate"><span class="pre">CriticalResources</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.download">cleep.libs.internals.download module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.download.Download"><code class="docutils literal notranslate"><span class="pre">Download</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.drivers">cleep.libs.internals.drivers module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.drivers.Drivers"><code class="docutils literal notranslate"><span class="pre">Drivers</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.event">cleep.libs.internals.event module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.event.Event"><code class="docutils literal notranslate"><span class="pre">Event</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.eventsbroker">cleep.libs.internals.eventsbroker module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.eventsbroker.EventsBroker"><code class="docutils literal notranslate"><span class="pre">EventsBroker</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.externalbus">cleep.libs.internals.externalbus module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.externalbus.ExternalBus"><code class="docutils literal notranslate"><span class="pre">ExternalBus</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-install-module">cleep.libs.internals.install module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-installcleep-module">cleep.libs.internals.installcleep module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.installdeb">cleep.libs.internals.installdeb module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.installdeb.InstallDeb"><code class="docutils literal notranslate"><span class="pre">InstallDeb</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-installmodule-module">cleep.libs.internals.installmodule module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.profileformatter">cleep.libs.internals.profileformatter module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.profileformatter.ProfileFormatter"><code class="docutils literal notranslate"><span class="pre">ProfileFormatter</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.profileformattersbroker">cleep.libs.internals.profileformattersbroker module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker"><code class="docutils literal notranslate"><span class="pre">ProfileFormattersBroker</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.readwrite">cleep.libs.internals.readwrite module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.readwrite.ReadWrite"><code class="docutils literal notranslate"><span class="pre">ReadWrite</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.readwrite.ReadWriteContext"><code class="docutils literal notranslate"><span class="pre">ReadWriteContext</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.rendererprofile">cleep.libs.internals.rendererprofile module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.rendererprofile.RendererProfile"><code class="docutils literal notranslate"><span class="pre">RendererProfile</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-sun-module">cleep.libs.internals.sun module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.task">cleep.libs.internals.task module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.task.CountTask"><code class="docutils literal notranslate"><span class="pre">CountTask</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.task.Task"><code class="docutils literal notranslate"><span class="pre">Task</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.tools">cleep.libs.internals.tools module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.cidr_to_netmask"><code class="docutils literal notranslate"><span class="pre">cidr_to_netmask()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.compare_compat_string"><code class="docutils literal notranslate"><span class="pre">compare_compat_string()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.compare_versions"><code class="docutils literal notranslate"><span class="pre">compare_versions()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.dbm_to_percent"><code class="docutils literal notranslate"><span class="pre">dbm_to_percent()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.file_to_base64"><code class="docutils literal notranslate"><span class="pre">file_to_base64()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.full_split_path"><code class="docutils literal notranslate"><span class="pre">full_split_path()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.hr_bytes"><code class="docutils literal notranslate"><span class="pre">hr_bytes()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.hr_uptime"><code class="docutils literal notranslate"><span class="pre">hr_uptime()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.install_trace_logging_level"><code class="docutils literal notranslate"><span class="pre">install_trace_logging_level()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.install_unhandled_exception_handler"><code class="docutils literal notranslate"><span class="pre">install_unhandled_exception_handler()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.is_core_lib"><code class="docutils literal notranslate"><span class="pre">is_core_lib()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.netmask_to_cidr"><code class="docutils literal notranslate"><span class="pre">netmask_to_cidr()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.raspberry_pi_infos"><code class="docutils literal notranslate"><span class="pre">raspberry_pi_infos()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.tools.wpa_passphrase"><code class="docutils literal notranslate"><span class="pre">wpa_passphrase()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.tests.html">cleep.libs.tests package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.common">cleep.libs.tests.common module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.tests.html#cleep.libs.tests.common.get_log_level"><code class="docutils literal notranslate"><span class="pre">get_log_level()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.lib">cleep.libs.tests.lib module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.tests.html#cleep.libs.tests.lib.FileDescriptorMock"><code class="docutils literal notranslate"><span class="pre">FileDescriptorMock</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.tests.html#cleep.libs.tests.lib.TestLib"><code class="docutils literal notranslate"><span class="pre">TestLib</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.mockdatetime">cleep.libs.tests.mockdatetime module</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.libs.tests.html#cleep.libs.tests.mockdatetime.mock_datetime"><code class="docutils literal notranslate"><span class="pre">mock_datetime()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#cleep-libs-tests-session-module">cleep.libs.tests.session module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.profiles.html">cleep.profiles package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alarmprofile">cleep.profiles.alarmprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile"><code class="docutils literal notranslate"><span class="pre">AlarmProfile</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_SCHEDULED"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_SCHEDULED</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_SNOOZED"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_SNOOZED</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_STOPPED"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_STOPPED</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_TRIGGERED"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_TRIGGERED</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_UNKNOWN"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_UNKNOWN</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alarmprofile.AlarmProfile.STATUS_UNSCHEDULED"><code class="docutils literal notranslate"><span class="pre">AlarmProfile.STATUS_UNSCHEDULED</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alertprofile">cleep.profiles.alertprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.alertprofile.AlertProfile"><code class="docutils literal notranslate"><span class="pre">AlertProfile</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.identifiedmessageprofile">cleep.profiles.identifiedmessageprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.identifiedmessageprofile.IdentifiedMessageProfile"><code class="docutils literal notranslate"><span class="pre">IdentifiedMessageProfile</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.messageprofile">cleep.profiles.messageprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.messageprofile.MessageProfile"><code class="docutils literal notranslate"><span class="pre">MessageProfile</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.thermostatprofile">cleep.profiles.thermostatprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ANTIFROST"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_ANTIFROST</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT1"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_COMFORT1</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT2"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_COMFORT2</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT3"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_COMFORT3</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ECO"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_ECO</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_STOP"><code class="docutils literal notranslate"><span class="pre">ThermostatProfile.MODE_STOP</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.timerangedmessageprofile">cleep.profiles.timerangedmessageprofile module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#cleep.profiles.timerangedmessageprofile.TimeRangedMessageProfile"><code class="docutils literal notranslate"><span class="pre">TimeRangedMessageProfile</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">cleep.resources package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#module-cleep.resources.audiocaptureresource">cleep.resources.audiocaptureresource module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#cleep.resources.audiocaptureresource.AudioCaptureResource"><code class="docutils literal notranslate"><span class="pre">AudioCaptureResource</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="#cleep.resources.audiocaptureresource.AudioCaptureResource.RESOURCE_NAME"><code class="docutils literal notranslate"><span class="pre">AudioCaptureResource.RESOURCE_NAME</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#module-cleep.resources.audioplaybackresource">cleep.resources.audioplaybackresource module</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#cleep.resources.audioplaybackresource.AudioPlaybackResource"><code class="docutils literal notranslate"><span class="pre">AudioPlaybackResource</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="#cleep.resources.audioplaybackresource.AudioPlaybackResource.RESOURCE_NAME"><code class="docutils literal notranslate"><span class="pre">AudioPlaybackResource.RESOURCE_NAME</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-bus-module">cleep.bus module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.common">cleep.common module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES"><code class="docutils literal notranslate"><span class="pre">CATEGORIES</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.ALL"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.ALL</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.APPLICATION"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.APPLICATION</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.DRIVER"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.DRIVER</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.HOBBY"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.HOBBY</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.HOMEAUTOMATION"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.HOMEAUTOMATION</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.MEDIA"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.MEDIA</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.MOBILE"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.MOBILE</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.CATEGORIES.SERVICE"><code class="docutils literal notranslate"><span class="pre">CATEGORIES.SERVICE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep"><code class="docutils literal notranslate"><span class="pre">ExecutionStep</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep.BOOT"><code class="docutils literal notranslate"><span class="pre">ExecutionStep.BOOT</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep.CONFIG"><code class="docutils literal notranslate"><span class="pre">ExecutionStep.CONFIG</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep.INIT"><code class="docutils literal notranslate"><span class="pre">ExecutionStep.INIT</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep.RUN"><code class="docutils literal notranslate"><span class="pre">ExecutionStep.RUN</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.ExecutionStep.STOP"><code class="docutils literal notranslate"><span class="pre">ExecutionStep.STOP</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest"><code class="docutils literal notranslate"><span class="pre">MessageRequest</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.fill_from_dict"><code class="docutils literal notranslate"><span class="pre">MessageRequest.fill_from_dict()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.fill_from_request"><code class="docutils literal notranslate"><span class="pre">MessageRequest.fill_from_request()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.is_broadcast"><code class="docutils literal notranslate"><span class="pre">MessageRequest.is_broadcast()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.is_command"><code class="docutils literal notranslate"><span class="pre">MessageRequest.is_command()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.is_external_event"><code class="docutils literal notranslate"><span class="pre">MessageRequest.is_external_event()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageRequest.to_dict"><code class="docutils literal notranslate"><span class="pre">MessageRequest.to_dict()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.common.MessageResponse"><code class="docutils literal notranslate"><span class="pre">MessageResponse</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageResponse.fill_from_dict"><code class="docutils literal notranslate"><span class="pre">MessageResponse.fill_from_dict()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageResponse.fill_from_response"><code class="docutils literal notranslate"><span class="pre">MessageResponse.fill_from_response()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.MessageResponse.to_dict"><code class="docutils literal notranslate"><span class="pre">MessageResponse.to_dict()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.common.PeerInfos"><code class="docutils literal notranslate"><span class="pre">PeerInfos</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.PeerInfos.fill_from_dict"><code class="docutils literal notranslate"><span class="pre">PeerInfos.fill_from_dict()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.html#cleep.common.PeerInfos.to_dict"><code class="docutils literal notranslate"><span class="pre">PeerInfos.to_dict()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-core-module">cleep.core module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.exception">cleep.exception module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.BusError"><code class="docutils literal notranslate"><span class="pre">BusError</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.CommandError"><code class="docutils literal notranslate"><span class="pre">CommandError</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.CommandInfo"><code class="docutils literal notranslate"><span class="pre">CommandInfo</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.InvalidMessage"><code class="docutils literal notranslate"><span class="pre">InvalidMessage</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.InvalidModule"><code class="docutils literal notranslate"><span class="pre">InvalidModule</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.InvalidParameter"><code class="docutils literal notranslate"><span class="pre">InvalidParameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.MissingParameter"><code class="docutils literal notranslate"><span class="pre">MissingParameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.NoMessageAvailable"><code class="docutils literal notranslate"><span class="pre">NoMessageAvailable</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.NoResponse"><code class="docutils literal notranslate"><span class="pre">NoResponse</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.ResourceNotAvailable"><code class="docutils literal notranslate"><span class="pre">ResourceNotAvailable</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.html#cleep.exception.Unauthorized"><code class="docutils literal notranslate"><span class="pre">Unauthorized</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-inventory-module">cleep.inventory module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-rpcserver-module">cleep.rpcserver module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #607d8b" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Cleep core</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">cleep</a></li>
+          <li class="breadcrumb-item"><a href="cleep.html">cleep package</a></li>
+      <li class="breadcrumb-item active">cleep.resources package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/source/cleep.resources.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cleep-resources-package">
+<h1>cleep.resources package<a class="headerlink" href="#cleep-resources-package" title="Permalink to this heading"></a></h1>
+<section id="module-cleep.resources.audiocaptureresource">
+<span id="cleep-resources-audiocaptureresource-module"></span><h2>cleep.resources.audiocaptureresource module<a class="headerlink" href="#module-cleep.resources.audiocaptureresource" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="cleep.resources.audiocaptureresource.AudioCaptureResource">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">AudioCaptureResource</span></span><a class="headerlink" href="#cleep.resources.audiocaptureresource.AudioCaptureResource" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepresource.CleepResource" title="cleep.libs.internals.cleepresource.CleepResource"><code class="xref py py-class docutils literal notranslate"><span class="pre">CleepResource</span></code></a></p>
+<p>Audio capture resource definition</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.resources.audiocaptureresource.AudioCaptureResource.RESOURCE_NAME">
+<span class="sig-name descname"><span class="pre">RESOURCE_NAME</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'audio.capture'</span></em><a class="headerlink" href="#cleep.resources.audiocaptureresource.AudioCaptureResource.RESOURCE_NAME" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-cleep.resources.audioplaybackresource">
+<span id="cleep-resources-audioplaybackresource-module"></span><h2>cleep.resources.audioplaybackresource module<a class="headerlink" href="#module-cleep.resources.audioplaybackresource" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="cleep.resources.audioplaybackresource.AudioPlaybackResource">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">AudioPlaybackResource</span></span><a class="headerlink" href="#cleep.resources.audioplaybackresource.AudioPlaybackResource" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.cleepresource.CleepResource" title="cleep.libs.internals.cleepresource.CleepResource"><code class="xref py py-class docutils literal notranslate"><span class="pre">CleepResource</span></code></a></p>
+<p>Audio playback resource definition</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.resources.audioplaybackresource.AudioPlaybackResource.RESOURCE_NAME">
+<span class="sig-name descname"><span class="pre">RESOURCE_NAME</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'audio.playback'</span></em><a class="headerlink" href="#cleep.resources.audioplaybackresource.AudioPlaybackResource.RESOURCE_NAME" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024 CleepDevice.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

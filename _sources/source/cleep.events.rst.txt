@@ -1,0 +1,20 @@
+cleep.events package
+====================
+
+
+cleep.events.coreappsupdatedevent module
+----------------------------------------
+
+.. automodule:: cleep.events.coreappsupdatedevent
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cleep.events.coredevicedeletedevent module
+------------------------------------------
+
+.. automodule:: cleep.events.coredevicedeletedevent
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
